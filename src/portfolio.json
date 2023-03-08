@@ -1,0 +1,56 @@
+[
+{
+    "id": 1,
+    "key": 1,
+    "title": "EcoExplorer",
+    "image": "https://drive.google.com/uc?export=view&id=1pPgDgXJQVu7sgTaLtn0kLd6lKQYESQc_",
+    "Github": "https://github.com/Helloseva/Eco-Travel-Planner",
+    "URL": "https://omar-ahm.github.io/Eco-Travel-Planner/  ",
+    "summary": "Sustainable travel app searches eco-friendly travel options and calculates carbon emissions - HTML5, CSS3, JavaScript, jQuery, API, Bootstrap, and Font Awesome."
+},
+{
+    "id": 2,
+    "key": 2,
+    "title": "Coding Quiz",
+    "image": "https://drive.google.com/uc?export=view&id=1421N1HS76Xenq5qAtocIwg2ZKrB7btaS",
+    "Github": "https://github.com/Helloseva/Challenge6-CodingQuiz",
+    "URL": "https://helloseva.github.io/Challenge6-CodingQuiz/",
+    "summary": "timed coding quiz with multiple-choice questions built using JavaScript fundamentals."
+},
+{
+    "id": 3,
+    "key": 3,
+    "title": "README Generator",
+    "image": "https://drive.google.com/uc?export=view&id=1uOTqn2E6CtGOd5LXo3g1AaWPbkg_Y9dA",
+    "Github": "https://github.com/Helloseva/Node-ReadMe",
+    "URL": "not deployed",
+    "summary": "README Generator by answering question in the terminal running node index.js."
+},
+{
+    "id": 4,
+    "key": 4,
+    "title": "Weather Dashboard",
+    "image": "https://drive.google.com/uc?export=view&id=1A7njQ0nI1l2qVNjkAiDkKNGpTj1J4Msn",
+    "Github": "https://github.com/Helloseva/WeatherDashboard",
+    "URL": "https://helloseva.github.io/WeatherDashboard/",
+    "summary": "Weather app displays a 5-day forecast for user-selected cities - and utilizing HTML, CSS, JavaScript and OpenWeathermap API."
+},
+{
+    "id": 5,
+    "key": 5,
+    "title": "Weekly Planner",
+    "image": "https://drive.google.com/uc?export=view&id=1EQsfRVOzVWqiYI_XBXgQ7qAoz_5SfnjF",
+    "Github": "https://github.com/Helloseva/Challenge7-WeeklyPlanner",
+    "URL": "https://helloseva.github.io/Challenge7-WeeklyPlanner/",
+    "summary": "A calendar app that enables users to save events for each hour of the day by modifying the starter code - HTML5, CSS3, JavaScript, jQuery, API, Bootstrap, and Font Awesome."
+},
+{
+    "id": 6,
+    "key": 6,
+    "title": "Password Generator",
+    "image": "https://drive.google.com/uc?export=view&id=1Z9gEj_CpVcMhHjTBUJpCaVuW8kDtuFuA",
+    "Github": "https://github.com/Helloseva/challenge5-PasswordGenerator",
+    "URL": "https://helloseva.github.io/challenge5-PasswordGenerator/",
+    "summary": "an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code."
+}
+]
