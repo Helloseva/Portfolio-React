@@ -1,39 +1,28 @@
-import React, { useState } from "react";
-import Header from "../src/components/Header";
-import About from "../src/components/About";
-import Contact from "../src/components/Contact";
-import Portfolio from "../src/components/Portfolio";
-import Resume from "../src/components/Resume";
-import "./App.css";
+import React from "react";
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+
 
 function App() {
-  const [activeTab, handleClick] = useState("about");
-
-  // This method is checking to see what the value of `activeTab` is. Depending on the value of currentPage, we return the corresponding component to render.
-  const renderTab = () => {
-    if (activeTab === "About") {
-      return <About />;
-    }
-    if (activeTab === "Contact") {
-      return <Contact />;
-    }
-    if (activeTab === "Portfolio") {
-      return <Portfolio />;
-    }
-    if (activeTab === "Resume") {
-      return <Resume />;
-    }
-    return <About />;
-  };
-
   return (
-    <>
-      <Header
-        activeTab={activeTab}
-        handleClick={handleClick}
-      ></Header>
-      <main>{renderTab()}</main>
-    </>
-  );
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+
+          <Route path="/" element={<Nav />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Portfolio" element={<Contact />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Contact" element={<Contact />} />
+
+        </Routes>
+      </div>
+    </Router>
+  )
 }
+
 export default App;
