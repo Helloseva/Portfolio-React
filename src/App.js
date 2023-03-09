@@ -1,27 +1,26 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from "./components/Nav";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import PortfolioDisplay from "./components/PortfolioDisplay";
 
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div>
-        <Header />
+        <Nav />
         <Routes>
 
           <Route path="/" element={<Nav />} />
           <Route path="/About" element={<About />} />
-          <Route path="/Portfolio" element={<Contact />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Portfolio" element={<PortfolioDisplay />} />
           <Route path="/Contact" element={<Contact />} />
 
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 
