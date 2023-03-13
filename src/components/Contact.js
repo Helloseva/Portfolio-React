@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+//Page features contact form and contact information
 function Contact() {
   // setting initial values of input fields to an empty string
   const [email, setEmail] = useState("");
@@ -27,6 +28,10 @@ function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
+    // if (!validateEmail(email) || !userName) {
+    //   setErrorMessage("Email or Name is invalid");
+    //   return;
+    // }
 
     if (!setMessage(message)) {
       setErrorMessage(`Message is required.`);
@@ -41,7 +46,6 @@ function Contact() {
 
   return (
     <section id="reach-out" className="contact">
-      <h2 className="section-title secondary-border">Reach Out!</h2>
 
       {/* contact form section  */}
       <div className="contact-form">

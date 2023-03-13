@@ -1,27 +1,32 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from "./components/Nav";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
 import About from "./components/About";
+import Home from "./components/Home";
 import Contact from "./components/Contact";
-import PortfolioDisplay from "./components/PortfolioDisplay";
+import ProjectsGallery from "./components/ProjectsGallery";
+import Resume from "./components/Resume";
+import "./App.css";
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
-        <Nav />
+        <Header />
         <Routes>
-
-          <Route path="/" element={<Nav />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Portfolio" element={<PortfolioDisplay />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="projects-gallery/*" element={<ProjectsGallery />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
+          <Route path="resume" element={<Resume />} />
 
         </Routes>
       </div>
-    </BrowserRouter>
-  )
+    </Router>
+  );
 }
 
 export default App;

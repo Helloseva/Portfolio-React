@@ -1,26 +1,21 @@
 import React from "react";
 
 function About() {
-    return (
-        <section id="aboutMe" className="my-5 intro">
-            <p class="me1">Hello. My Name is Sevda Seyidova.</p>
+  return (
+    <section id="aboutMe">
 
-            <div class=" flex-row wrapper">
-                <div class="intro-img">
-                    <img id="profPic" src="profimg.jpeg" alt="prof-pic" />
-                    <p class="me">
-                        I'm highly business-savvy Front End Engineer with expertise in front end
-                        technologies from a rigorous coding Bootcamp Certificate with edX and Trilogy.
-                        Skilled in strategic thinking, bridging the gap between UI/UX designs and
-                        technical implementation, and developing visually appealing interfaces in
-                        a fast-paced environment that provide exceptional user experience and
-                        engagement.
-                        Contact me if you have cool opportunities that you think I can help :)  
-                    </p>
-                </div>
-            </div>
-        </section>
-    );
+      <div class="flex-row wrapper">
+        <div class="intro-img">
+          <img id="profPic" src="pic.jpeg" alt="prof-pic" />
+          <p class="me">
+          Front End Developer with expertise in front end technologies,
+          earned through a rigorous coding Bootcamp Certificate from edX and Trilogy.
+          Skilled in strategic thinking, with a strong commercial and business awareness, able to bridge the gap between UI/UX designs and technical implementation and develop visually appealing interfaces that provide exceptional user experience.
+          </p>
+
+        </div>
+      </div>
+    </section>
+  );
 }
-
 export default About;

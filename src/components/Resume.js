@@ -1,13 +1,16 @@
 import React from "react";
+import myResume from "../assets/resume.pdf";
 
 function Resume() {
-    return (
+  return (
+    <div>
       <section id="resume" className="download-intro">
         <h1 class="resumeTitle">Download My Resume</h1>
-        <a href="https://docs.google.com/document/d/1uFvHLDInuy_9T65lVdgF20mnSHSEh-CCqwi7u4eKaQc/edit" className="download-logo" size="10x" download>
+        <a href={myResume} className="download-logo" size="100x">
         </a>
       </section>
-    );
-  }
-  
-  export default Resume;
+    </div>
+  );
+}
+
+export default Resume;

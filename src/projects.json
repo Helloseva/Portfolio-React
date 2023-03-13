@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "title": "Eco-Explorer",
+      "screenshot": "",
+      "description" : "Application that helps travelers find sustainable travel options, calculates the estimated carbon emissions generated from their travel itinerary and shows sustainable travel options such as hike and bike trails. ",
+      "technologies" : "HTML / CSS / JavaScript / JQuery / API",
+      "linkDeployment": "https://helloseva.github.io/Eco-Travel-Planner",
+      "linkRepository": "https://github.com/Helloseva/Eco-Travel-Planner"
+
+    },
+    {
+        "id": 2,
+        "title": "Bootstrap portfolio",
+        "screenshot":
+          "",
+          "description" : "My portfolio web page layout was built using the Bootstrap CSS Framework from scratch.",
+          "technologies" : "HTML / CSS / Bootstrap 4.6",
+         "linkDeployment": "https://helloseva.github.io/Bootstrap-Portfolio/",
+        "linkRepository": "https://github.com/Helloseva/Bootstrap-Portfolio"
+
+      },
+      {
+        "id": 3,
+        "title": "Password generator",
+        "image":
+          "",
+          "description" : "Challenge requires to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code.",
+          "technologies" : "Javascript / HTML / CSS",
+         "linkDeployment": "https://helloseva.github.io/challenge5-PasswordGenerator/",
+        "linkRepository": "https://github.com/Helloseva/challenge5-PasswordGenerator"
+
+      },
+      {
+        "id": 4,
+        "title": "Weather dashboard",
+        "image":
+          "",
+          "description" : "A weather dashboard that runs in the browser using server side API and features dynamically updated HTML and CSS.",
+          "technologies" : "Javascript / CSS / HTML / JQUERY / AJAX, API / Moment.js ",
+         "linkDeployment": "https://| helloseva.github.io/WeatherDashboard/",
+        "linkRepository": "https://github.com/Helloseva/WeatherDashboard/"
+      },
+      {
+        "id": 5,
+        "title": "Coding Quiz",
+        "image":
+          "",
+          "description" : "a timed coding quiz with multiple-choice questions built using JavaScript fundamentals. ",
+          "technologies" : "Javascript / NodeJS / CSS / HTML5",
+         "linkDeployment": "https://helloseva.github.io/Challenge6-CodingQuiz/",
+        "linkRepository": "https://github.com/Helloseva/Challenge6-CodingQuiz"
+      },
+      {
+        "id": 6,
+        "title": "Weekly Planner",
+        "image":
+          "",
+          "description" : "a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. ",
+          "technologies" : "Javascript / CSS / HTML / Bootstrap / Moments.JS",
+         "linkDeployment": "https://helloseva.github.io/Challenge7-WeeklyPlanner/",
+        "linkRepository": "https://github.com/Helloseva/Challenge7-WeeklyPlanner/"
+      }
+  ]
