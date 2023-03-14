@@ -5,8 +5,8 @@
       "screenshot": "",
       "description" : "Application that helps travelers find sustainable travel options, calculates the estimated carbon emissions generated from their travel itinerary and shows sustainable travel options such as hike and bike trails. ",
       "technologies" : "HTML / CSS / JavaScript / JQuery / API",
-      "linkDeployment": "https://helloseva.github.io/Eco-Travel-Planner",
-      "linkRepository": "https://github.com/Helloseva/Eco-Travel-Planner"
+      "Deployed": "https://helloseva.github.io/Eco-Travel-Planner",
+      "Github": "https://github.com/Helloseva/Eco-Travel-Planner"
 
     },
     {
@@ -38,7 +38,7 @@
           "",
           "description" : "A weather dashboard that runs in the browser using server side API and features dynamically updated HTML and CSS.",
           "technologies" : "Javascript / CSS / HTML / JQUERY / AJAX, API / Moment.js ",
-         "linkDeployment": "https://| helloseva.github.io/WeatherDashboard/",
+         "linkDeployment": "https://helloseva.github.io/WeatherDashboard/",
         "linkRepository": "https://github.com/Helloseva/WeatherDashboard/"
       },
       {

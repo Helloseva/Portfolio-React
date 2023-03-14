@@ -10,8 +10,8 @@ function ProjectCard({project}) {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
         </div>
-        <a href={project.linkDeployment} className="button" target="_blank" rel="noreferrer">Deployed</a>
-        <a href={project.linkRepository} className="button" target="_blank" rel="noreferrer">Github Repository</a>
+        <a href={project.Deployed} className="button" target="_blank" rel="noreferrer">Deployed</a>
+        <a href={project.Github} className="button" target="_blank" rel="noreferrer">Github Repository</a>
     </div>
   )
 }

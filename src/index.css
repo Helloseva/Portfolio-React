@@ -24,17 +24,17 @@ color: black;
 #welcome {
   padding-top: 200px;
   text-align: center;
-  font-size: 95px;
+  font-size: 75px;
   font-family: "opensans-bold", sans-serif;
-  color: #d4a373;
+  color: #C1E1C1;
   height: 15%;
 }
 
 #introduction {
   text-align: center;
-  font-size: 95px;
+  font-size: 55px;
   font-family: sans-serif;
-  color: #b68c62;
+  color: #3D550C;
   height: 15%;
   padding-top: 100px;
 }
