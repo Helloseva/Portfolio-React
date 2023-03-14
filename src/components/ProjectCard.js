@@ -4,7 +4,6 @@ function ProjectCard({project}) {
 
   return (
     <div className='project-container'>
-        <img src={project.screenshot} alt={project.title}/>
         <div className='overlay'></div>
         <div className='content'>
             <h3>{project.title}</h3>

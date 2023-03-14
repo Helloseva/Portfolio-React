@@ -8,9 +8,9 @@ function Home() {
       <section>
         <div>
           <div>
-            <h1 id="welcome">Welcome to my Portfolio!</h1>
-            <h1 id="introduction">I'm Sevda Seyidova</h1>
-            <p id="softDev">
+            <h1 id="name">Welcome to my Portfolio!</h1>
+            <h1 id="intro">I'm Sevda Seyidova</h1>
+            <p id="junior">
               <span class="highlight">
               Junior Front End Web Developer in the making :)
               </span>
@@ -22,7 +22,7 @@ function Home() {
                 href="https://github.com/Helloseva "
                 role="button"
               >
-                GitHub
+                My GitHub
               </a>
             </span>
             <span className="text-center d-inline-block">
@@ -31,7 +31,7 @@ function Home() {
                 href="https://www.linkedin.com/in/sseva"
                 role="button"
               >
-                LinkdIn
+                My LinkdIn
               </a>
             </span>
             <span className="text-center d-inline-block">
@@ -40,7 +40,7 @@ function Home() {
                 href="mailto: abc@example.com"
                 role="button"
               >
-                email me
+                Email me
               </a>
             </span>
             <span className="text-center d-inline-block">
@@ -49,7 +49,7 @@ function Home() {
                 href="https://docs.google.com/document/d/1uFvHLDInuy_9T65lVdgF20mnSHSEh-CCqwi7u4eKaQc/edit"
                 role="button"
               >
-                resume
+               My Resume
               </a>
             </span>
             </div>

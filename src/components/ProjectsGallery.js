@@ -35,7 +35,6 @@ function ProjectsGallery() {
       <div className='projects-wrapper'>
         <h2> Recent Projects</h2>
         <div className='project-wrapper'>
-          {/*Looping through the the projects.json object and rendering each project dinamically */}
           {projects.map( p => <ProjectCard project={p} key={p.id} />)}
         </div>
       </div>
