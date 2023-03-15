@@ -19,7 +19,8 @@ This application is a portfolio created using React. The single page app include
 4. Run npm start to start the web server and connect
 
 
-![screenshot of page](assets/images/screenshot.png)
+![screenshot of page](public/Screenshot.png)
+![screenshot of page](public/Screenshot2.png)
 
 ## License
 
