@@ -1,17 +1,22 @@
 import React from "react";
 
-function ProjectCard({project}) {
+function ProjectCard(props) {
 
   return (
-    <div className='project-container'>
-        <div className='overlay'></div>
-        <div className='content'>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-        </div>
-        <a href={project.Deployed} className="button" target="_blank" rel="noreferrer">Deployed</a>
-        <a href={project.Github} className="button" target="_blank" rel="noreferrer">Github Repository</a>
+    <div className="card ">
+      <a href={props.Deployed}>
+        <img
+          src={process.env.PUBLIC_URL + props.image}
+          className="card-img-top"
+          alt="..."
+        />
+      </a>
+      <div className="card-body">
+        <p className="card-title"> {props.title} </p>
+        <p className="card-text"> {props.description}</p>
+      </div>
     </div>
-  )
+);
+
 }
 export default ProjectCard;

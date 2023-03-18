@@ -1,45 +1,39 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import projects from "..//projects.json";
+import projects from "./projects.json";
 import "./project.css"
-
-// //Use .map to display cards with projects info sourced from json file.
-
-// function ProjectsGallery() {
-//   return (
-//     <div className="project-container">
-//       <h2 className="title">My projects</h2>
-//       <div className="cards-container">
-//         {projects.map(function (projects) {
-//           return (
-//             <ProjectCard
-//               key={projects.id}
-//               name={projects.title}
-//               image={projects.image}
-//               deployed={projects.deployed}
-//               github={projects.github}
-//             />
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default ProjectsGallery;
 
 function ProjectsGallery() {
 
+  const projectsArray = [];
+  for (let i=0; i < projects.length; i++) {
+    projectsArray.push(<ProjectCard
+      image={projects[i].image}
+      title={projects[i].title}
+      description={projects[i].description}
+      Deployed={projects[i].Deployed}
+    />)
+  } 
   return (
-    <div className='projects-container'>
-      <div className='projects-wrapper'>
-        <h2> Recent Projects</h2>
-        <div className='project-wrapper'>
-          {projects.map( p => <ProjectCard project={p} key={p.id} />)}
+    <div>
+      <div className="row justify-content-center" id="rows">
+        <p className="projects">Courses Dashboard</p>
+        <div className="container-fluid my-container">
+          <div className="row">
+            <div className="col-4">{projectsArray[0]}</div>
+            <div className="col-4">{projectsArray[1]}</div>
+            <div className="col-4">{projectsArray[2]}</div>
+          </div>
+          <div className="row">
+            <div className="col-4">{projectsArray[3]}</div>
+            <div className="col-4">{projectsArray[4]}</div>
+            <div className="col-4">{projectsArray[5]}</div>
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
+
 
 export default ProjectsGallery

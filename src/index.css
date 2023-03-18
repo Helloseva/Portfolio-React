@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  height: 50%;
 }
 
 main,
@@ -134,7 +133,7 @@ a {
   line-height: 1.5;
 }
 
-/* portfolio styler */
+/* portfolio styler
 #ProjectCar {
   background: #faedcd;
   padding-top: 90px;
@@ -179,15 +178,7 @@ a {
   background-color: rgba(111, 110, 110, 0.28);
 }
 
-p,
-.description {
-  color: #6e735d;
-  text-decoration: none !important;
-  font-size: 15px;
-  line-height: 20px;
-  margin-bottom: 10px;
-  max-height: 20px;
-}
+
 
 .language {
   margin-top: 10px;
@@ -221,7 +212,7 @@ a:active {
 .highlight1 {
   background-color: #6e735d;
   color: #fefae0;
-}
+} */
 
 /* contact form styling */
 
@@ -328,7 +319,7 @@ footer {
 }
 
 
-
+/* 
 .project-container {
   position: relative;
   display: inline-block;
@@ -384,7 +375,7 @@ footer {
 
 .project-container .button:first-child {
   margin-left: 0;
-}
+} */
 
 @media only screen and (min-width: 400px){
   .project-container {
